@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+}
+footer {
+  height: 320px;
+  flex: 0;
+}
+.view-height {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.user-view {
+  flex: 1;
+  padding-bottom: 48px;
+  padding-top: 120px;
+  background:url('https://www.toptal.com/designers/subtlepatterns/uploads/lightpaperfibers.png');
+  // background:url('assets/images/halftone.png');
+  // background:url('https://www.toptal.com/designers/subtlepatterns/uploads/white_wall_hash.png');
+  // background:url('https://www.toptal.com/designers/subtlepatterns/uploads/snow.png');
+}
+#app {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

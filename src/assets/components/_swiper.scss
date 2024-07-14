@@ -1,0 +1,97 @@
+.product-page {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .mySwiper2 {
+    height: 60%;
+    width: 100%;
+  }
+  
+  .mySwiper {
+    margin-top: 10px;
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+  
+  .product-img {
+    height: 100%;
+  }
+}
+.prefer-swiper {
+  max-width: 100%;
+  max-height: 350px;
+  padding: 0 50px;
+  --swiper-navigation-color: $secondary;
+  .swiper-button-next,.swiper-button-prev {
+    background: $primary;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    top: 50%;
+    border-radius: 50%;
+    // transform: translateY(50%);
+    opacity: 0.7;
+  }
+  .swiper-button-prev {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f105';
+    left: 0;
+    opacity: 0.7;
+  }
+  .swiper-button-next {
+    right: 0;
+    opacity: 0.7;
+  }
+  .swiper-button-prev::after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f053'; /* Font Awesome 的右箭頭圖標的 Unicode */
+    font-size: 20px; /* 根據需要調整圖標大小 */
+    color: #000; /* 根據需要調整顏色 */
+    right: 10px;
+  }
+  .swiper-button-next::after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f054'; /* Font Awesome 的右箭頭圖標的 Unicode */
+    font-size: 20px; /* 根據需要調整圖標大小 */
+    color: #000; /* 根據需要調整顏色 */
+    right: 10px;
+  }
+}
